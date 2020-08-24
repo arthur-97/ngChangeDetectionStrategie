@@ -1,0 +1,20 @@
+<div class="control-block">
+  <div>
+    <button (click)="changeString()">change string</button>
+  </div>
+  <div>
+    <button (click)="changeArray()">change array</button>
+  </div>
+  <div>
+    <button (click)="changeData()">change data</button>
+  </div>
+  <div>
+    <button (click)="changeBoolean()">change boolean</button>
+  </div>
+</div>
+<div class="block" style="float: left">
+  <app-default-root [data]="data" [boolean]="boolean"></app-default-root>
+</div>
+<div class="block" style="float: right">
+  <app-onpush-root [data]="data" [boolean]="boolean"></app-onpush-root>
+</div>

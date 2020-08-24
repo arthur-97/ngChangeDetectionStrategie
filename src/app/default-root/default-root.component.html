@@ -1,0 +1,10 @@
+<p>{{title | uppercase}}</p>
+<p>{{data.string}}</p>
+<p>{{data.array | json}}</p>
+<p>{{boolean}}</p>
+<div class="block">
+  <app-default-parent-a [data]="data" [boolean]="boolean"></app-default-parent-a>
+</div>
+<div class="block">
+  <app-default-parent-b [data]="data" [boolean]="boolean"></app-default-parent-b>
+</div>

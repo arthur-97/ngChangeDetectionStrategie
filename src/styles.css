@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+.block {
+  width: 45%;
+  height: 15%;
+  background-color: bisque;
+  text-align: center;
+  border: solid 1px brown;
+  margin: 10px;
+}
+
+.control-block {
+  width: 200px;
+  height: 150px;
+  background-color: darkgrey;
+  text-align: center;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+}
+
+button {
+  margin: 4px;
+  font-size: 21px;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background-color: bisque;
+  border: 1px solid brown;
+  margin: 10px;
+  border-radius: 40px;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: bisque;
+  border: 1px solid brown;
+  margin: 10px;
+}
